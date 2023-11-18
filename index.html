@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Remove water from your phone's speakers for FREE! It works by playing a specific tone that generates sound waves which causes the water to be ejected.">
+
+  <title>Clean My Speakers - Eject water from your phone's speakers !</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <span class="logo">Clean Your Speakers 🔊💦</span>
+  </nav>
+
+  <main class="main-section">
+    <h1 class="h1">Clean Your Speakers 🔊💦</h1>
+    <h2>Eject 💦 water and dust from your phone's speakers after getting it wet or dirty by playing a sound.</h2>
+    <b>[INCREASE YOUR VOLUME TO 100]</b>
+    <button class="button" onclick="toggleAudio()">Play Sound</button>
+  </main>
+  <hr>
+  <section class="video-section">
+    <h2 class="video-title">Watch Our Video</h2>
+    <video class="video" src="video.mp4" controls></video>
+  </section>
+  <audio id="audio" src="clean.mp3"></audio>
+
+  <script>
+    function toggleAudio() {
+      var audio = document.getElementById('audio');
+      var button = document.querySelector('.button');
+
+      if (audio.paused) {
+        audio.play();
+        button.innerHTML = 'Pause';
+      } else {
+        audio.pause();
+        button.innerHTML = 'Play Sound';
+      }
+    }
+  </script>
+  <footer>
+    <p>&copy; 2023 Clean My Speakers</p>
+  </footer>
+</body>
+</html>

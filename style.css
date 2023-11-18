@@ -1,0 +1,102 @@
+/* style.css */
+
+body {
+  width:100vw;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* General styling */
+
+a {
+  color: #BB91F8;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/* Main section */
+hr {
+  background-color:white;
+}
+.main-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 0 20px;
+}
+
+.h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 25px 30px;
+  border-radius:40px;
+  background-color: #BB91F8;
+  color: #212f3c;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.purple {
+  color:#BB91F8;
+}
+.button:hover {
+  background-color: #cfb0fe;
+}
+/* Video section */
+
+.video-section {
+  padding: 20px;
+  background-color: #000;
+  text-align: center;
+}
+
+.video-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 60vw;
+  
+  border: 5px solid #fff;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  
+  font-size: 12px;
+  text-align: center;
+}

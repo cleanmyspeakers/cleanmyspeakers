@@ -7,8 +7,11 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* General styling */
 
 a {
@@ -41,7 +44,7 @@ hr {
   background-color:white;
 }
 .main-section {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,27 +53,48 @@ hr {
   text-align: center;
   padding: 0 20px;
 }
+h2 {
+  color:white
+}
+.main-section  {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2196f3; /* Use a darker shade of blue for a minimal contrast */
+  margin-bottom: 20px;
+}
 
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #fc5aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .h1 {
-  font-size: 48px;
+margin-top: -10vw;
+  font-size: 13vw;
+  line-height:11vw;
+  letter-spacing: -0.3vw;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .button {
-  padding: 25px 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 2vw 4vw;
   border-radius:40px;
-  background-color: #BB91F8;
-  color: #212f3c;
+  background-color: #007bff; /* Use a darker shade of blue for a stronger contrast */
+  color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2vw;
 }
 .purple {
   color:#BB91F8;
 }
 .button:hover {
-  background-color: #cfb0fe;
+  background-color: #fc5aff;
+  transition: background-color 0.5s ease-in-out;
 }
 /* Video section */
 
